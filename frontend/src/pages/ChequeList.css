@@ -1,0 +1,55 @@
+.cheque-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.search-input {
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.cheque-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cheque-table th {
+  background: #2f3640;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+.cheque-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.cheque-table tr:hover {
+  background: #f1f2f6;
+}
+
+.pagination {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pagination button {
+  padding: 6px 12px;
+  background: #0984e3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
